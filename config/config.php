@@ -10,6 +10,5 @@ $con = mysqli_connect("localhost", "root", "", "social");
 
 if(mysqli_connect_errno()){
 
-	/* mysqli_connect_errno() serve para determinar o erro ocorrido */
 	echo "Falha de conexao: " . mysqli_connect_errno();
 }
